@@ -25,7 +25,7 @@ def segment_image(image):
     return binary_image
 
 def main():
-    file_path = r'C:\Users\GSori\OneDrive\Documents\4thYear\DSPA\MRITechniques\assets\wash-120_sub-001_T1w.nii.gz'
+    file_path = r'C:\Users\GSori\OneDrive\Documents\4thYear\DSPA\MRITechniques\assets\listen-task_sub-UTS01_ses-1_T1w.nii.gz'
     mri_image = load_image(file_path)
 
     if mri_image is not None:
